@@ -7,8 +7,10 @@ install scripts for [project enclave](https://github.com/Project-Enclave).
 ### enclave messenger
 
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/Project-Enclave/setup/main/messenger.sh)
+curl -sL https://raw.githubusercontent.com/Project-Enclave/setup/main/messenger.sh | bash
 ```
+
+> works in bash, zsh, and fish.
 
 ## scripts
 
