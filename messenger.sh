@@ -12,5 +12,8 @@ source .venv/bin/activate
 echo "[enclave] installing dependencies..."
 pip install -r requirements.txt
 
+echo "[enclave] setting up identity..."
+python set.py
+
 echo "[enclave] starting..."
 python web.py
